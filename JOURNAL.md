@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-09 – worked on the base pcb, still need to add the screen, maybe debug pins, etc](#2026-10-09-worked-on-the-base-pcb-still-need-to-add-the-scre)
-2. [2026-10-09 – Work session](#2026-10-09-work-session)
+2. [2026-10-09 – in this session i was working on the code, also this is my first time coding by hand, so thats y its like 1 hr long for like only 75 lines of code. last commit i made was f0f5d19. also by using a comb](#2026-10-09-in-this-session-i-was-working-on-the-code-also-th)
 
 ## Design
 
@@ -31,8 +31,10 @@ worked on the base pcb, still need to add the screen, maybe debug pins, etc
 
 [Timelapse](https://lookout.hackclub.com/api/media/71f497c0-71ea-40ed-be51-f81b1778fad0/video.mp4)
 
-### 2026-10-09 – Work session
+### 2026-10-09 – in this session i was working on the code, also this is my first time coding by hand, so thats y its like 1 hr long for like only 75 lines of code. last commit i made was f0f5d19. also by using a comb
 
 **1.3h**
+
+in this session i was working on the code, also this is my first time coding by hand, so thats y its like 1 hr long for like only 75 lines of code. last commit i made was f0f5d19. also by using a combo of the esp32s3 acting like a keyboard and windows powertoys i was able to get all five pins to type text, open apps, open url, or fake another keyboard shortcut
 
 [Timelapse](https://lookout.hackclub.com/api/media/b0e2664b-5068-44b4-a757-03bb02587a5e/video.mp4)
