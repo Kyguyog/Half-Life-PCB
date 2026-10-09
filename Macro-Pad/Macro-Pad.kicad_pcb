@@ -609,7 +609,7 @@
 			)
 		)
 		(property "Value" "TPS62162DSG"
-			(at -36.925 1.015 90)
+			(at 2.5 -4 90)
 			(layer "F.Fab")
 			(uuid "526f7939-e880-495e-931c-73cb64aa6ece")
 			(effects
@@ -3276,6 +3276,7 @@
 		(property "Value" "SW_Push"
 			(at 0 4.15 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "81be9b7f-6faf-478e-8e8f-ecf2fcf96634")
 			(effects
 				(font
@@ -4615,6 +4616,43 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_text "@Kyguyog"
+		(at 34.5 62 0)
+		(layer "F.Cu")
+		(uuid "71f3fb36-eeed-4f18-8694-443eec045613")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(barcode
+		(at 43.625 72.125 0)
+		(layer "F.Cu")
+		(size 17.75 17.75)
+		(text "https://github.com/Kyguyog")
+		(text_height 1.5)
+		(type qr)
+		(ecc_level L)
+		(hide yes)
+		(knockout no)
+		(uuid "b12f9f42-5a23-4f02-a786-c61ed48611f4")
+	)
+	(barcode
+		(at 52.5 76 0)
+		(layer "F.Cu")
+		(size 10 10)
+		(text "")
+		(text_height 1.5)
+		(type qr)
+		(ecc_level L)
+		(hide no)
+		(knockout no)
+		(uuid "6bd48d9d-35a9-4d6a-bda8-a2edf1b143a3")
 	)
 	(segment
 		(start 32.5 37.5)
