@@ -14,12 +14,14 @@
 
 ## Contents
 
-1. [2026-10-09 – Work session](#2026-10-09-work-session)
+1. [2026-10-09 – worked on the base pcb, still need to add the screen, maybe debug pins, etc](#2026-10-09-worked-on-the-base-pcb-still-need-to-add-the-scre)
 
 ## Design
 
-### 2026-10-09 – Work session
+### 2026-10-09 – worked on the base pcb, still need to add the screen, maybe debug pins, etc
 
 **2.93h**
+
+worked on the base pcb, still need to add the screen, maybe debug pins, etc
 
 [Timelapse](https://lookout.hackclub.com/api/media/71f497c0-71ea-40ed-be51-f81b1778fad0/video.mp4)
