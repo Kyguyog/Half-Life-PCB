@@ -1,0 +1,1 @@
+This repo is for my firsty project ever for Hack Club's Half Life Program, my project is a macropad with a screen, 4 MX Cherry Key switches, and built on a esp32s3
