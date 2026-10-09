@@ -24,4 +24,8 @@
 
 worked on the base pcb, still need to add the screen, maybe debug pins, etc
 
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/RUAAckUYh7vDzAAoWZlusDxNd9PMUU2W/54e44be2b66c7f347ac1f701adb9a1801375b0959bf372f6983eebf687b7f96c.png)
+
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/RUAAckUYh7vDzAAoWZlusDxNd9PMUU2W/693e3e03d8cd751a7a02738e4166c7ad5024697adcca6895a4122fb710f50093.png)
+
 [Timelapse](https://lookout.hackclub.com/api/media/71f497c0-71ea-40ed-be51-f81b1778fad0/video.mp4)
