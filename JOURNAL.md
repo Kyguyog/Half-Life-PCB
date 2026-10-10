@@ -35,6 +35,6 @@ worked on the base pcb, still need to add the screen, maybe debug pins, etc
 
 **1.3h**
 
-in this session i was working on the code, also this is my first time coding by hand, so thats y its like 1 hr long for like only 75 lines of code. last commit i made was f0f5d19. also by using a combo of the esp32s3 acting like a keyboard and windows powertoys i was able to get all five pins to type text, open apps, open url, or fake another keyboard shortcut
+in this session i was working on the code, also this is my first time coding by hand, so thats y its like 1 hr long for like only 75 lines of code. last commit i made was f0f5d19. also by using a combo of the esp32s3 acting like a keyboard and windows powertoys i was able to get all five pins to type text, open apps, open url, or fake another keyboard shortcut, as of right now the code maps 4 gpio pins to a individual function key (f20-24), then u can use a app like powertoys to map each fn key to something
 
 [Timelapse](https://lookout.hackclub.com/api/media/b0e2664b-5068-44b4-a757-03bb02587a5e/video.mp4)
