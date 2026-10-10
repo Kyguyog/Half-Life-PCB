@@ -13,7 +13,6 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | SW_Push - SW_SPST_PTS645Sx43SMTR92 | — | 1 | $0.00 | $0.00 | C&K Switches |
-| 1.0uF Capacitor | — | 1 | $0.00 | $0.00 | Murata / Samsung |
 | 22uF Capacitor | — | 1 | $0.00 | $0.00 | Murata / Samsung |
 | USB_C_Receptacle_USB2.0_14P - USB_C_Receptacle_HRO_TYPE-C-31-M-12 | — | 1 | $0.00 | $0.00 | HRO (Korean Hroparts) |
 | SW_Push - SW_Cherry_MX_1.00u_PCB | — | 4 | $0.00 | $0.00 | Cherry |
