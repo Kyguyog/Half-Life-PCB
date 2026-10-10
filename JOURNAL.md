@@ -16,7 +16,7 @@
 
 1. [2026-10-09 – worked on the base pcb, still need to add the screen, maybe debug pins, etc](#2026-10-09-worked-on-the-base-pcb-still-need-to-add-the-scre)
 2. [2026-10-09 – in this session i was working on the code, also this is my first time coding by hand, so thats y its like 1 hr long for like only 75 lines of code. last commit i made was f0f5d19. also by using a comb](#2026-10-09-in-this-session-i-was-working-on-the-code-also-th)
-3. [2026-10-10 – Work session](#2026-10-10-work-session)
+3. [2026-10-10 – I added silkscreen text, updated some of the wiring, set pcb size, looked into adding a screen](#2026-10-10-i-added-silkscreen-text-updated-some-of-the-wirin)
 
 ## Design
 
@@ -40,8 +40,10 @@ in this session i was working on the code, also this is my first time coding by 
 
 [Timelapse](https://lookout.hackclub.com/api/media/b0e2664b-5068-44b4-a757-03bb02587a5e/video.mp4)
 
-### 2026-10-10 – Work session
+### 2026-10-10 – I added silkscreen text, updated some of the wiring, set pcb size, looked into adding a screen
 
 **1.72h**
+
+I added silkscreen text, updated some of the wiring, set pcb size, looked into adding a screen
 
 [Timelapse](https://lookout.hackclub.com/api/media/1799d9a2-cb8f-4e6b-905a-8c9c42e41fd7/video.mp4)
