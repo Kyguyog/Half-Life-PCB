@@ -15,9 +15,6 @@
 | SW_Push - SW_SPST_PTS645Sx43SMTR92 | — | 1 | $0.00 | $0.00 | C&K Switches |
 | USB_C_Receptacle_USB2.0_14P - USB_C_Receptacle_HRO_TYPE-C-31-M-12 | — | 1 | $0.00 | $0.00 | HRO (Korean Hroparts) |
 | SW_Push - SW_Cherry_MX_1.00u_PCB | — | 4 | $0.00 | $0.00 | Cherry |
-| 2.2uH Inductor | — | 1 | $0.00 | $0.00 | TDK / Murata |
-| 5.1k Resistor | — | 2 | $0.00 | $0.00 | Yageo / Panasonic |
-| 10k Resistor | — | 1 | $0.00 | $0.00 | Yageo / Panasonic |
 | ESP32-S3-WROOM-1 | — | 1 | $0.00 | $0.00 | Espressif Systems |
 | TPS62162DSG Voltage Regulator | — | 1 | $0.00 | $0.00 | Texas Instruments |
 | **Parts subtotal** | — | — | — | **$0.00** | — |
