@@ -1,11 +1,11 @@
-Part Name,Designator,Footprint,Quantity,Value/Description
-Push Button,BOOT1,SW_SPST_PTS645Sx43SMTR92,1,SW_Push
-Capacitor,C1,C_0402_1005Metric,1,1.0uF
-Capacitor,C2,C_0402_1005Metric,1,22uF
-USB Connector,J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,USB_C_Receptacle_USB2.0_14P
-Mechanical Keyboard Switches,"KB-SW1, KB-SW2, KB-SW3, KB-SW4",SW_Cherry_MX_1.00u_PCB,4,SW_Push
-Inductor,L1,0806,1,2.2uH
-Resistor,"R1, R2",R_0603_1608Metric,2,5.1k
-Resistor,R3,R_0603_1608Metric,1,10k
-Microcontroller Module,U1,ESP32-S3-WROOM-1,1,ESP32-S3-WROOM-1
-Voltage Regulator,U2,Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,1,TPS62162DSG
+Part Name,Designator,Footprint,Quantity,Vendor,Supplier and ref
+"SW_Push - SW_SPST_PTS645Sx43SMTR92",BOOT1,SW_SPST_PTS645Sx43SMTR92,1,C&K Switches,
+"1.0uF Capacitor",C1,C_0402_1005Metric,1,"Murata / Samsung",
+"22uF Capacitor",C2,C_0402_1005Metric,1,"Murata / Samsung",
+"USB_C_Receptacle_USB2.0_14P - USB_C_Receptacle_HRO_TYPE-C-31-M-12",J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,"HRO (Korean Hroparts)",
+"SW_Push - SW_Cherry_MX_1.00u_PCB","KB-SW1, KB-SW2, KB-SW3, KB-SW4",SW_Cherry_MX_1.00u_PCB,4,Cherry,
+"2.2uH Inductor",L1,0806,1,"TDK / Murata",
+"5.1k Resistor","R1, R2",R_0603_1608Metric,2,"Yageo / Panasonic",
+"10k Resistor",R3,R_0603_1608Metric,1,"Yageo / Panasonic",
+ESP32-S3-WROOM-1,U1,ESP32-S3-WROOM-1,1,"Espressif Systems",
+"TPS62162DSG Voltage Regulator",U2,Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,1,"Texas Instruments",
