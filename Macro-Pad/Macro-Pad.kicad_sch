@@ -660,12 +660,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Capacitor:1.0uF_0402_16V_10%"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -673,7 +674,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -683,8 +684,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1.0uF"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -694,8 +695,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
-				(at 0 -11.43 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -705,8 +706,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-				(at 0 -13.97 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -716,8 +717,8 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 -19.05 0)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -727,38 +728,7 @@
 					)
 				)
 			)
-			(property "PROD_ID" "CAP-14969"
-				(at -1.27 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "16V"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "10%"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun cap capacitor 1uF"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -780,7 +750,7 @@
 					)
 				)
 			)
-			(symbol "1.0uF_0402_16V_10%_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -798,7 +768,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -806,7 +776,7 @@
 					)
 				)
 			)
-			(symbol "1.0uF_0402_16V_10%_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1014,205 +984,6 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-Coil:2.2uH_0806_1.2A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.2uH"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Coil:0806"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0022.pdf"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "NDUC-14257"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Current" "1.2A"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2.2uH_0806_1.2A_0_1"
-				(arc
-					(start -2.032 0)
-					(mid -1.524 0.5058)
-					(end -1.016 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 0)
-					(mid -0.508 0.5058)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.508 0.5058)
-					(end 1.016 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 0)
-					(mid 1.524 0.5058)
-					(end 2.032 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2.2uH_0806_1.2A_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0.508)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.508)
 					(name ""
 						(effects
 							(font
@@ -2421,17 +2192,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TPS62162DSG"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -7.62 11.43 0)
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2441,31 +2219,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TPS62162DSG"
-				(at -1.27 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-				(at 3.81 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62160.pdf"
-				(at 0 13.97 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2475,7 +2230,18 @@
 					)
 				)
 			)
-			(property "Description" "1A Step-Down Converter with DCS-Control, fixed 3.3V output, 3-17V input voltage, WSON-8"
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2486,7 +2252,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "step-down dc-dc buck regulator"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2497,7 +2263,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*WSON*EP*2x2mm*P0.5mm*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2508,10 +2274,10 @@
 					)
 				)
 			)
-			(symbol "TPS62162DSG_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -7.62)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2521,11 +2287,11 @@
 					)
 				)
 			)
-			(symbol "TPS62162DSG_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "PGND"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2540,10 +2306,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 7.62 0)
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "VIN"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2558,10 +2324,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 5.08 0)
+				(pin power_in line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2569,114 +2335,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -10.16 90)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "VOS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2865,12 +2523,6 @@
 		(uuid "07f59657-9afd-495a-88a4-5db21b72def7")
 	)
 	(junction
-		(at 120.65 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09a0294c-7a1d-4124-b535-bbac5783ccd6")
-	)
-	(junction
 		(at 76.2 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2883,10 +2535,10 @@
 		(uuid "226d7aa0-6c5e-4fea-a3a5-bc6be7014544")
 	)
 	(junction
-		(at 78.74 113.03)
+		(at 15.24 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fa81563-3d22-427f-92d7-124bb857afd3")
+		(uuid "3aad4922-f8d7-4107-a1e6-8a9c1f94bc4e")
 	)
 	(junction
 		(at 63.5 34.29)
@@ -2901,28 +2553,40 @@
 		(uuid "46fd8c98-4029-4da0-9706-c8b8ea1e96de")
 	)
 	(junction
+		(at 80.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "547acd52-ce4c-40ac-8f32-6dffb33175a8")
+	)
+	(junction
+		(at 73.66 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54c49870-3c22-4077-b40e-d2651f6f3e14")
+	)
+	(junction
+		(at 15.24 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc097b5-6120-4a66-891a-7d8757623f0d")
+	)
+	(junction
 		(at 26.67 12.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f1442ac-9c11-487d-ad6a-4941005d1269")
 	)
 	(junction
+		(at 80.01 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7047a43c-cffe-43cb-86e4-f836a881582d")
+	)
+	(junction
 		(at 63.5 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7814334c-cf1f-4048-8d8b-2ee3d09bc960")
-	)
-	(junction
-		(at 15.24 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82b97bac-476d-43e3-bb75-f7e595f80ded")
-	)
-	(junction
-		(at 66.04 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "897d4d67-e1e8-44e1-93d1-3280f8b0e178")
 	)
 	(junction
 		(at 55.88 95.25)
@@ -2955,56 +2619,10 @@
 		(uuid "d9b456d1-b038-4977-a565-8b9e99d717d1")
 	)
 	(junction
-		(at 15.24 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9357831-a481-4583-be3c-01216dcfea57")
-	)
-	(junction
 		(at 48.26 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec9cee59-016b-4327-82a7-f4fe1ba170cb")
-	)
-	(wire
-		(pts
-			(xy 96.52 92.71) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "009b1663-e105-4b78-8a5f-759e41582207")
-	)
-	(wire
-		(pts
-			(xy 78.74 113.03) (xy 78.74 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "033a19fd-4f98-4597-8d64-b36b9c7c6e7c")
-	)
-	(wire
-		(pts
-			(xy 76.2 113.03) (xy 76.2 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0478ff68-f8a5-4564-a23a-76ec24cadb91")
-	)
-	(wire
-		(pts
-			(xy 15.24 27.94) (xy 15.24 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b68578-ba25-4f83-95f3-2353a660fde6")
 	)
 	(wire
 		(pts
@@ -3035,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "0f206b23-c3b4-445e-a531-bf8b3a6021a3")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1729c3e9-eef5-4468-97d0-223605a53e11")
 	)
 	(wire
 		(pts
@@ -3078,16 +2706,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 39.37) (xy 15.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2072d0c7-c523-494f-a15f-aad5ba614e35")
-	)
-	(wire
-		(pts
 			(xy 17.78 21.59) (xy 17.78 33.02)
 		)
 		(stroke
@@ -3118,6 +2736,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 104.14) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bbed4c-1917-4fc1-9d63-c604c6726b38")
+	)
+	(wire
+		(pts
 			(xy 15.24 128.27) (xy 25.4 128.27)
 		)
 		(stroke
@@ -3125,6 +2753,16 @@
 			(type default)
 		)
 		(uuid "2bbf6b9b-e6e8-44f2-9adc-fd02f36d155c")
+	)
+	(wire
+		(pts
+			(xy 15.24 27.94) (xy 15.24 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8ab281-6aff-4640-8bec-5c9151b56140")
 	)
 	(wire
 		(pts
@@ -3138,13 +2776,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 92.71) (xy 66.04 95.25)
+			(xy 73.66 104.14) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "345e8c80-73ce-4a5a-8973-f2624f924291")
+		(uuid "31307a0d-335d-41d8-917e-cdeac3a95cd9")
 	)
 	(wire
 		(pts
@@ -3198,16 +2836,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 113.03) (xy 78.74 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "437658d9-d776-461f-bf22-926d6a2fdd7e")
-	)
-	(wire
-		(pts
 			(xy 86.36 48.26) (xy 86.36 34.29)
 		)
 		(stroke
@@ -3235,6 +2863,16 @@
 			(type default)
 		)
 		(uuid "4d260206-619d-4654-b503-c61a67abb09e")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfb02d8-853e-4b52-bdda-a01150197e3b")
 	)
 	(wire
 		(pts
@@ -3288,6 +2926,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 76.2) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a93eb7e-b0bd-41e3-b7d9-aa80d7088169")
+	)
+	(wire
+		(pts
 			(xy 17.78 33.02) (xy 20.32 33.02)
 		)
 		(stroke
@@ -3318,6 +2966,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 102.87) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc9ebd8-8f0f-4bb5-a5fd-da35cdde66fd")
+	)
+	(wire
+		(pts
 			(xy 50.8 48.26) (xy 86.36 48.26)
 		)
 		(stroke
@@ -3338,16 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 95.25) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72aaac6c-a972-44a4-8ac2-2bf0493617a3")
-	)
-	(wire
-		(pts
 			(xy 99.06 50.8) (xy 99.06 34.29)
 		)
 		(stroke
@@ -3355,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "7cce8a79-9e62-4813-944d-b7195c864316")
-	)
-	(wire
-		(pts
-			(xy 66.04 92.71) (xy 48.26 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dfbc205-1666-4de1-b14b-775037d1b827")
 	)
 	(wire
 		(pts
@@ -3395,16 +3033,6 @@
 			(type default)
 		)
 		(uuid "88435b51-d633-484e-b443-bb3c311c9256")
-	)
-	(wire
-		(pts
-			(xy 86.36 95.25) (xy 120.65 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e5d4ff-b2c6-4c3e-9a46-cc41ed89c16a")
 	)
 	(wire
 		(pts
@@ -3468,33 +3096,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 113.03) (xy 78.74 113.03)
+			(xy 80.01 92.71) (xy 80.01 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4e49377-d22c-4b5e-8647-89b0819e0306")
+		(uuid "aeee3b03-49ef-4607-8805-c3b5740e9601")
 	)
 	(wire
 		(pts
-			(xy 86.36 97.79) (xy 86.36 113.03)
+			(xy 15.24 39.37) (xy 15.24 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5ef34b7-1927-4e8c-83f3-a65ca3586108")
-	)
-	(wire
-		(pts
-			(xy 120.65 76.2) (xy 120.65 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b87ae603-39a5-4120-a1c6-673f1e3848b6")
+		(uuid "b935dd98-29ea-43d7-a889-eca413d05a39")
 	)
 	(wire
 		(pts
@@ -3515,16 +3133,6 @@
 			(type default)
 		)
 		(uuid "cd666bd5-3837-40d4-860c-7302c7c3e5b1")
-	)
-	(wire
-		(pts
-			(xy 86.36 92.71) (xy 91.44 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d48d7142-3b16-4776-a82e-0d8e0e9c983a")
 	)
 	(wire
 		(pts
@@ -3628,6 +3236,36 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 104.14) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a6c1ce-810c-4260-8927-9d12c8518585")
+	)
+	(wire
+		(pts
+			(xy 48.26 92.71) (xy 80.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bb6b8c-028b-4141-b84b-2021a220e589")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d66749-9e33-4c53-8192-48a72a61f1ed")
+	)
+	(wire
+		(pts
 			(xy 48.26 102.87) (xy 48.26 105.41)
 		)
 		(stroke
@@ -3638,115 +3276,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 93.98 76.2)
+			(xy 63.5 76.2) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe7775c4-8e3f-42ba-be04-20c7c1b15056")
-	)
-	(symbol
-		(lib_id "Regulator_Switching:TPS62162DSG")
-		(at 76.2 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0acf4eca-89a6-4735-9ebf-ba0f601faa0a")
-		(property "Reference" "U2"
-			(at 76.2 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62162DSG"
-			(at 76.2 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
-			(at 80.01 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps62160.pdf"
-			(at 76.2 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A Step-Down Converter with DCS-Control, fixed 3.3V output, 3-17V input voltage, WSON-8"
-			(at 76.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba8ee554-d616-472f-829a-a655983f3d43")
-		)
-		(pin "5"
-			(uuid "a1be0179-face-44d6-903a-bbb47fe89704")
-		)
-		(pin "9"
-			(uuid "336efb82-f0cc-4dd2-9722-1ddcaf458897")
-		)
-		(pin "7"
-			(uuid "0494cf45-a0fc-4c57-b26b-0a8bfe069425")
-		)
-		(pin "6"
-			(uuid "00534dc7-48ca-4db2-ab80-51216c0c5441")
-		)
-		(pin "8"
-			(uuid "2d765137-7009-4cdf-aa53-a18707b30973")
-		)
-		(pin "4"
-			(uuid "422b5602-a5f8-4222-aae0-1f13b9f02831")
-		)
-		(pin "3"
-			(uuid "e0a97192-59c8-4045-b940-72c2d8e6f5fe")
-		)
-		(pin "2"
-			(uuid "691c0435-3acc-4a12-b904-ead6563cd970")
-		)
-		(instances
-			(project "Macro-Pad"
-				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Resistor:5.1k_0603")
@@ -3780,7 +3316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 53.34 102.108 0)
 			(hide yes)
 			(show_name no)
@@ -3834,6 +3370,88 @@
 			(project "Macro-Pad"
 				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 80.01 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14d891d0-05f1-4970-9af1-5ac0533d028a")
+		(property "Reference" "IN_CAP1"
+			(at 82.55 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 82.55 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 80.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78bc0864-4518-46b9-ad57-ca4383a52cfc")
+		)
+		(pin "2"
+			(uuid "afb514ed-8f54-4fa6-b591-a346f2deca7e")
+		)
+		(instances
+			(project "Macro-Pad"
+				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
+					(reference "IN_CAP1")
 					(unit 1)
 				)
 			)
@@ -3914,225 +3532,6 @@
 			(project "Macro-Pad"
 				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
 					(reference "KB-SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Capacitor:1.0uF_0402_16V_10%")
-		(at 15.24 36.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4501241c-b522-4947-97ec-d0b647922ae1")
-		(property "Reference" "C1"
-			(at 12.7 33.0262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.0uF"
-			(at 12.7 35.5662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
-			(at 15.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 15.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 15.24 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "CAP-14969"
-			(at 16.51 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 12.7 38.1062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 12.7 40.6462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "59cf1a69-a746-4229-8bb8-feefdf12ef7d")
-		)
-		(pin "1"
-			(uuid "e840b4ed-6cb5-4d7e-82a3-af58c0cd5db3")
-		)
-		(instances
-			(project "Macro-Pad"
-				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Coil:2.2uH_0806_1.2A")
-		(at 93.98 92.71 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5cc6c989-f2cd-4f4e-bc18-3cadad3d39bf")
-		(property "Reference" "L1"
-			(at 96.5201 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uH"
-			(at 93.9801 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Coil:0806"
-			(at 93.98 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0022.pdf"
-			(at 93.98 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 93.98 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "NDUC-14257"
-			(at 93.98 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current" "1.5A"
-			(at 91.4401 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "c5bc626f-2a3f-4f50-8489-05af2a744c49")
-		)
-		(pin "2"
-			(uuid "0188c277-1c2d-45b6-b654-c74749b333f1")
-		)
-		(instances
-			(project "Macro-Pad"
-				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4299,6 +3698,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 87.63 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f77bac8-49f5-41ae-9f8d-09312fc1a815")
+		(property "Reference" "BUCK1"
+			(at 87.63 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 87.63 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 87.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 90.17 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 87.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2039c26f-1c1e-4a66-8ad0-bf9d40f74c03")
+		)
+		(pin "2"
+			(uuid "b96a754e-d652-4494-84e9-3ea417f777df")
+		)
+		(pin "1"
+			(uuid "622cd657-0872-41f8-8b89-9b74821a7c4e")
+		)
+		(instances
+			(project "Macro-Pad"
+				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
+					(reference "BUCK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 27.94 19.05 0)
 		(unit 1)
@@ -4310,7 +3792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f967f14-b5d5-4848-ba41-6c40d9f89f43")
-		(property "Reference" "BOOT"
+		(property "Reference" "BOOT1"
 			(at 27.94 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4330,7 +3812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
 			(at 27.94 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -4372,7 +3854,7 @@
 		(instances
 			(project "Macro-Pad"
 				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
-					(reference "BOOT")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -4390,7 +3872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94a6ade-79ae-4273-800c-1dda83037de1")
-		(property "Reference" "C2"
+		(property "Reference" "OUT_CAP1"
 			(at 96.5263 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4410,7 +3892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4483,7 +3965,7 @@
 		(instances
 			(project "Macro-Pad"
 				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
-					(reference "C2")
+					(reference "OUT_CAP1")
 					(unit 1)
 				)
 			)
@@ -4501,7 +3983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc131e8-7abc-41f2-b596-bf06e201a510")
-		(property "Reference" "J1"
+		(property "Reference" "USBC1"
 			(at 33.02 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,7 +4084,89 @@
 		(instances
 			(project "Macro-Pad"
 				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
-					(reference "J1")
+					(reference "USBC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 15.24 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d49c9c17-4cd5-4709-8a23-01ceffbadfbb")
+		(property "Reference" "C1"
+			(at 17.78 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.0uF"
+			(at 17.78 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 15.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 15.24 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1942062a-0c86-43d0-9a09-12eb0cc7be69")
+		)
+		(pin "2"
+			(uuid "d09c15de-3c4e-4454-9623-703bba569732")
+		)
+		(instances
+			(project "Macro-Pad"
+				(path "/992a88e0-714e-4011-b0b3-d8f6dfe24403"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4640,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 17.78 23.368 0)
 			(hide yes)
 			(show_name no)
@@ -4731,7 +4295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 53.34 99.568 0)
 			(hide yes)
 			(show_name no)
